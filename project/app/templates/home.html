@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% load static %}
+
+    {% block content %}
+    <header>
+        <div  class="header-content">
+            <h2>Explore the taste</h2>
+            <div class="line"></div>
+            <h1>Badkur's bar & restro </h1>
+            <a href="#" class="ctn">Learn more </a>
+        </div>
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1> Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="{% static 'images/party.jpg' %}" alt="">
+                <h4> Party Nights</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, facilis minima necessitatibus ut laborum eius corporis quam commodi sit itaque rerum magni voluptatem atque consequatur omnis. Similique, itaque quis? Cum?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img src="{% static 'images/wine.jpg' %}" alt="">
+                <h4>Wine tasting </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, facilis minima necessitatibus ut laborum eius corporis quam commodi sit itaque rerum magni voluptatem atque consequatur omnis. Similique, itaque quis? Cum?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>TASTE OF GOODNESS</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus praesentium saepe obcaecati tempora qui, quia commodi totam placeat accusantium? Itaque delectus adipisci corrupti quam ipsa laboriosam nobis aliquid molestias. Cum.</P>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+
+    </section>
+    {% endblock %}

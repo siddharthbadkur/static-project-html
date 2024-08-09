@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>Document</title>
+</head>
+<body>
+    {% block content %}
+<section id="testimonial">
+    <div class="container">
+        <img src="{% static 'images/quote.png' %}" alt="">
+        <h1>
+            "Original and with an innate understandiung of their customer's needs,
+            the team at love bar & restro are always a pleasure with us."
+        </h1>
+        <div class="profile">
+            <img src="{% static 'images/profile.png' %}" alt="">
+            <h4>Miss james .....</h4>
+        </div>
+    </div>
+</section>
+
+<section class="blog">
+    <div class="container1">
+        <div class="row1">
+            <div class="header1">
+                <h1>Our Blogs</h1>
+                <div class="line"></div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum animi rerum ipsam hic, quo non placeat dolorum, cupiditate sapiente nost
+                </p>
+            </div>
+            <div class="content1">
+                <div class="card1">
+                    <img src="{% static 'images/service.jpg' %}">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo repellendus dolore accusantium ..</h4>
+                    <a href="#" class="ctn">Learn more </a>
+                </div>
+
+                <div class="card1">
+                    <img src="{% static 'images/service-1.jpg' %}">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo repellendus dolore accusantium ..</h4>
+                    <a href="#" class="ctn">Learn more </a>
+                </div>
+
+                <div class="card1">
+                    <img src="{% static 'images/service-2.jpg' %}">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea quo repellendus dolore accusantium ..</h4>
+                    <a href="#" class="ctn">Learn more </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    {% endblock %}
+    
+</body>
+</html>

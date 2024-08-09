@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load static %}
+
+    {% block content %}
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING NIGHTS WITH TASTE & PARTY</h1>
+                <div class="line"></div>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis facilis velit ab excepturi, nihil quisquam delectus animi voluptate illum adipisci culpa saepe doloribus soluta fuga voluptatum earum autem reprehenderit odio.</P>
+                <a href="#" class="ctn">Learn more</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="{% static 'images/party-1.jpg' %}" alt="">
+                    <img src="{% static 'images/party-2.jpg' %}" alt="">
+                    <img src="{% static 'images/party-3.jpg' %}" alt="">
+                    <img src="{% static 'images/party-4.jpg' %}" alt="">
+
+                </div>
+            </div>
+        </div>
+      </section>
+
+    <div class="video">
+        <center>
+            <video controls>
+                <source src="{% static  'videos/video.mp4' %}"/>
+            </video>
+        </center>
+    </div>
+    {% endblock %}
+    
+</body>
+</html>

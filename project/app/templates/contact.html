@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block content %}
+<section id="questions">
+    <div class="container">
+        <h1>Questions ?</h1>
+        <p>
+            Wheather you're curious about features, a free trail , or even press,
+            we're here to answer any questions.
+        </p>
+        <button class="btn btn-primary">Let's Talk Now</button>
+    </div>
+</section>
+<section class="form">
+    <div class="wrap">
+        <h2 class="head">Sign Up</h2>
+            <div class="sub-main">    
+                <form action="#" method="post">
+                    <input placeholder="First Name" name="Name" type="text" required="">
+                        <br>
+                    <input placeholder="Last Name" name="Name" type="text" required="">
+                    <br>
+                    <input placeholder="Phone Number" name="Number"type="text" required="">
+                        <br>
+                    <input placeholder="Email" name="mail" type="text" required="">
+                        <br>
+                    <input  placeholder="Password" name="Password" type="password" required="">
+                        <br>
+                    <input  placeholder="Confirm Password" name="Password"type="password" required="">
+                        <br>
+                     
+                    <input type="submit" value="Sign up">
+                </form>
+            </div>
+            <div class="clear"></div>
+    </div>
+    
+
+
+</section>
+    {% endblock %}
+    
